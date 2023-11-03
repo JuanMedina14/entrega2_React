@@ -1,4 +1,4 @@
-import nav from './nav.css'
+
 import CartWidget from "../CartWidget/CartWidget"
 import { Link, redirect } from "react-router-dom"
 
