@@ -1,0 +1,41 @@
+
+.contacto{
+    text-align: center;
+}
+
+.form_div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin: 20px 0px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+input{
+    padding: 5px;
+    margin: 3px;
+}
+
+.botonEnviar{
+    background-color: rgb(33, 151, 33);
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.botonEnviar:hover{
+    background-color: rgb(18, 112, 18);
+    padding: 5px 20px;
+    width: 100px;
+    color: #fff;
+}

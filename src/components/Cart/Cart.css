@@ -1,0 +1,39 @@
+.comprar{
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   
+   .comprar:hover{
+     background-color: hwb(120 3% 62%);
+     color: #fff;
+   }
+   
+   .carrito{
+     background-color: rgb(243, 242, 242);
+     border: 1px solid rgb(172, 172, 172);
+     display: flex;
+     flex-wrap: wrap;
+     border-radius: 5px;
+     justify-content: space-between;
+     margin: 20px 0px;
+    padding: 20px 10px;
+   }
+
+   .total{
+    color: rgb(22, 45, 107);
+    text-align: end;
+   }
+
+   .vaciar{
+    background-color: red;
+    color: aliceblue;
+    padding: 4px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    margin: 30px auto;
+
+  }

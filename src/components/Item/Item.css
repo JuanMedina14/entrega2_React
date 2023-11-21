@@ -1,0 +1,13 @@
+.ver{
+    background-color: green;
+    color: #fff;
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: .4s;
+}
+
+.ver:hover{
+    background-color: rgb(13, 90, 13);
+    color: #fff;
+}

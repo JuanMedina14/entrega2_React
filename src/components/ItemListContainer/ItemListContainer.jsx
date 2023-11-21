@@ -1,8 +1,8 @@
+
 import { useState, useEffect } from "react"
-import { getProducts, getProductsByCategory } from "../../asyncMock"
 import ItemList from "../itemList/itemList"
 import { useParams } from "react-router-dom"
-
+import { getProducts } from "../../services/firebase/firestore/products"
 
 
 const ItemListContainer = ({ welcome }) => {
@@ -12,8 +12,8 @@ const ItemListContainer = ({ welcome }) => {
 
     
     useEffect (() => {
-        const asyncFunction = categoryId ? getProductsByCategory :  getProducts
-        asyncFunction(categoryId)
+        const asyncFunction = () => getProducts(categoryId)
+        asyncFunction()
             .then(response => {
                 SetProducts(response)
             })
